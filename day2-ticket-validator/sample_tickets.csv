@@ -1,0 +1,6 @@
+ticket_id,customer_name,service_type,status,opened_on,closed_on
+T1,Asha,AMC,OPEN,2025-01-15,
+T2,Ravi,REPAIR,CLOSED,2025-01-10,2025-01-12
+T3,Meena,WARRANTY,OPEN,2025-02-01,
+T4,Karan,AMC,OPEN,31-02-2025,
+T5,,INSTALLATION,OPEN,2025-03-01,
