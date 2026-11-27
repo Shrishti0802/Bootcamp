@@ -1,0 +1,22 @@
+id,expected_equipment,got_equipment,expected_urgency,got_urgency,expected_hospital,got_hospital,got_next_action,correct
+1,ventilator,ventilator,critical,critical,Apollo Hospital,apollo hospital,Send biomedical engineer immediately and arrange a backup ventilator,1
+2,mri machine,mri machine,low,low,Manipal Hospital,manipal hospital,Schedule cosmetic repair at convenience,1
+3,infusion pump,infusion pump,medium,high,,,Send biomedical engineer to inspect pump and verify occlusion sensor; replace pump if necessary,0
+4,defibrillator,defibrillator,high,critical,Fortis Hospital,fortis hospital,Send biomedical engineer immediately to replace battery and arrange a backup defibrillator,0
+5,x-ray machine,x-ray machine,medium,medium,Narayana Health,narayana health,Schedule a technician inspection this week,1
+6,ecg machine,ecg machine,low,low,,,Replace the paper roll,1
+7,ct scanner,ct scanner,high,critical,Max Hospital,max hospital,Send biomedical engineer immediately and arrange alternative scanning for emergency patients,0
+8,oxygen concentrator,oxygen concentrator,critical,critical,Rainbow Hospital,rainbow hospital,Send biomedical engineer immediately and provide backup oxygen supply for the baby,1
+9,patient monitor,patient monitor,medium,medium,,,Schedule a biomedical engineer to inspect the monitor and replace screen or unit if needed,1
+10,autoclave,autoclave,high,high,Sakra Hospital,sakra hospital,Replace the leaking door seal immediately and run validation cycles before resuming OT sterilization,1
+11,dialysis machine,dialysis machine,critical,critical,Aster Hospital,aster hospital,"Send biomedical engineer immediately, ensure patient safety, and prepare backup dialysis machine",1
+12,ultrasound machine,ultrasound machine probe cable,low,low,,,Replace the probe cable,0
+13,ventilator,ventilator,low,medium,Columbia Asia Hospital,columbia asia hospital,Schedule calibration before due date,0
+14,infusion pump,infusion pump,high,critical,Apollo Hospital,apollo hospital,"Immediately remove affected pumps from service, replace with backup pumps, and send biomedical engineer to investigate all infusion pumps",0
+15,suction machine,suction machine,critical,critical,Manipal Hospital,manipal hospital,Send biomedical engineer immediately and arrange a backup suction machine,1
+16,ecg machine,ecg machine,medium,medium,Fortis Hospital,fortis hospital,Switch to backup machine and schedule repair for the loose lead,1
+17,mri machine,mri machine,medium,high,Narayana Health,narayana health,Contact vendor for immediate helium level assessment and leak check; monitor helium levels closely and prepare quench protocol,0
+18,pulse oximeter,pulse oximeter,medium,medium,,,Inspect and calibrate or replace the pulse oximeter,1
+19,ventilator,ventilator,critical,critical,Max Hospital,max hospital,Send biomedical engineer immediately and arrange a backup ventilator,1
+20,operation theatre light,operating theatre light,high,medium,Rainbow Hospital,rainbow hospital,Send biomedical engineer to inspect and repair the flickering light,0
+OVERALL,12/20,60%
